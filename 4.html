@@ -1,0 +1,97 @@
+<!DOCTYPE html>	
+<html>
+<head>
+	<title>MERGE OF TABLES</title>
+	<style type="text/css">
+		table{
+			border-collapse: collapse;
+			margin: 200px 0 0 500px;
+			border: 2px hidden white;
+		}
+		#abc{
+			background-color: brown;
+		}
+		#def{
+			background-color: orange;
+		}
+		#ghi{
+			background-color: pink;
+		}
+		#jkl{
+			background-color: chocolate;
+		}
+		#mno{
+			background-color: violet;
+		}
+		#pqr{
+			background-color: maroon;
+		}
+		th{
+			background-color: lightgreen;
+			color: white;
+		}
+		th,td{
+			border: 1px solid black;
+		}
+		th{
+			border: 0px solid black;
+
+
+			
+		}
+	</style>
+</head>
+<body>
+	<table cellpadding="5px">
+		<tr>
+			<td></td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<th id="abc" colspan="3" rowspan="2">A</th>
+			<th id="def" colspan="4" rowspan="2">B</th>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<th id="ghi" colspan="7">C</th>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<th id="jkl" colspan="6" rowspan="2">D</th>
+			<th id="mno">E</th>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<th id="pqr">F</th>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td></td>
+		</tr>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MERGE OF TABLES</title>
+	<style type="text/css">
+		#abc{
+			background-color: green;
+			color: white;
+		}
+		#def{
+			background-color: lightgreen;
+			color: white;
+		}
+		#xyz{
+			background-color: white;
+			color: brown;
+		}
+		table{
+			border-collapse: collapse;
+			border: 1px solid black;
+			width: 100px;
+			text-align: center;
+			margin: 200px 0 0 400px;
+		}
+		th{
+			background-color: lightgreen;
+			color: white;
+			border: 1px solid black;
+		}
+		td{
+			background-color: white;
+			border: 0px solid white;
+		}
+	</style>
+</head>
+<body>
+	<table border="2" cellpadding="5px" cellspacing="5px">
+		<tr>
+			<th id="abc" colspan="3">Placeholder Text</th>
+		</tr>
+		<tr>
+			<th id="def" rowspan="2">Placeholder Text</th>
+			<th id="def" colspan="2">Placeholder</th>
+		</tr>
+		<tr>
+				<th id="def">Placeholder</th>
+				<th id="def">Placeholder</th>
+		</tr>
+		<tr>
+			<td>asdf</td>
+			<td>asdf</td>
+			<td>asdf</td>			
+		</tr>
+		<tr>
+			<td>asdf</td>
+			<td>asdf</td>
+			<td>asdf</td>
+		</tr>
+		<tr>
+			<td>asdf</td>
+			<td>asdf</td>
+			<td>asdf</td>
+		</tr>
+		<tr>
+			<td>asdf</td>
+			<td>asdf</td>
+			<td>asdf</td>
+		</tr>
+		<tr>
+			<div>
+				<th id="xyz">Total</th>
+				<th id="xyz" colspan="2">asdf</th>	
+			</div>
+			
+		</tr>
+	</table>
+
+</body>
+</html>
